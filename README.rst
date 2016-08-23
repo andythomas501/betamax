@@ -70,7 +70,7 @@ caveat is that python-requests returns a URL on each response. VCR does not
 store that in a cassette now but we will. Any VCR-recorded cassette used to
 playback a response will unfortunately not have a URL attribute on responses
 that are returned. This is a minor annoyance but not something that can be
-fixed.
+fixed
 
 Contributing
 ------------
